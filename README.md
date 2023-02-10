@@ -78,35 +78,8 @@ $ npm run migrate_test:down
 $ npm run migrate_test:reset
 ```
 
-**NOTE** use database variable shown below in  **.env** file 
 
-# Environment Variables:
-all shown in **.env** file in the root directory as following:
-## Server
-```
-port: 7000
-```
-## Default database 
-```
-DEVELOPMENT=dev
-```
-## Database
-```
-host: localhost
-port: 5432
-database_dev: projec_db
-database_test: projec_db_test
-username: postgres
-password: 12345
-```
-## Bycrypt & salt_rounds
-```
-BC_PASSWORD=hello-udacians
-SALT_ROUNDS=10
-```
-## jwt
-```
-SECRET_KEY=ZdBLSGIevPCwMNk1b16l81mwk7YSIDAT
-```
+
+
 
 
